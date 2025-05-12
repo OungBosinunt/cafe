@@ -147,7 +147,7 @@ section{
 }
 
 .btn{
-    margin-top: 20px;
+  
     display: inline-block;
     padding: 13px 32px;
     background:var(--bg-color);
@@ -257,7 +257,7 @@ section{
         height: auto;
     }
     .hero-text{
-        padding-top: 170px;
+        padding-top: 100px;
     }
     .hero-img{
         height: 500px;
@@ -296,6 +296,21 @@ section{
     .hero-img{
         height: 360px;
         width: 360px;
+        margin: 0 auto;
+    }
+
+}
+@media(max-width:420px){
+    :root{
+        --big-font: 3rem;
+    }
+    .hero-text h5{
+        font-size: 12px;
+    }
+
+    .hero-img{
+        height: 320px;
+        width: 320px;
         margin: 0 auto;
     }
 
