@@ -305,12 +305,13 @@ section{
         --big-font: 3rem;
     }
     .hero-text h5{
-        font-size: 12px;
+        font-size: 9px;
     }
 
     .hero-img{
-        height: 320px;
-        width: 320px;
+        margin-bottom : 20px
+        height: 300px;
+        width: 300px;
         margin: 0 auto;
     }
 
